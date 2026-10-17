@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oturum Aç - Güvenlik Doğrulaması</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">🛡️ SecurePortal</div>
+        <h2>Hesabınıza Giriş Yapın</h2>
+        <form action="result.html" method="GET">
+            <div class="input-group">
+                <label for="username">E-posta veya Kullanıcı Adı</label>
+                <input type="text" id="username" name="username" required placeholder="ornek@domain.com">
+            </div>
+            <div class="input-group">
+                <label for="password">Şifre</label>
+                <input type="password" id="password" name="password" required placeholder="••••••••">
+            </div>
+            <button type="submit" class="login-btn">Giriş Yap</button>
+        </form>
+        <p class="disclaimer">Bu ekran bir siber güvenlik farkındalık simülasyonudur.</p>
+    </div>
+</body>
+</html>
